@@ -1,0 +1,15 @@
+.header-color{
+    background-color: rgb(64, 170, 117)!important;
+    
+}
+
+.btn-logout{
+    background-color: rgb(252, 99, 145) !important;
+    border-radius: 500px;
+    color: rgb(255, 252, 252) !important;
+    
+}
+.image{
+    width: 45%;
+    margin-right: -350px;
+}
