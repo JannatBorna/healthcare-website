@@ -11,7 +11,7 @@ const Header = () => {
                    
                     <img className="image" src={Image} alt="" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" className=" header-text"/>
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className="me-auto">
                         <Nav.Link href="#home" className=" header-text">Home</Nav.Link>
