@@ -19,7 +19,7 @@ const Login = () => {
                                 label="Email address"
                                 className="mb-3 w-75 mx-auto"
                             >
-                                <Form.Control type="email" placeholder="name@example.com" />
+                            <Form.Control type="email" placeholder="name@example.com" />
                             </FloatingLabel>
                             <FloatingLabel controlId="floatingPassword" label="Password" className="w-75 mx-auto">
                                 <Form.Control type="password" placeholder="Password" />
@@ -37,16 +37,16 @@ const Login = () => {
                             <button className="online-btn github "><i class="fab fa-github"></i> Github</button>
 
                         </div>
-                    </Col>
+                       </Col>
 
-                    <Col lg={7} md={8}>
+                      <Col lg={7} md={8}>
                         <div>
                             <img className="w-75 mx-5" src={img} alt="" />
                         </div>
 
                     </Col>
                 </Row>
-           </Container>
+            </Container>
 
 
 
