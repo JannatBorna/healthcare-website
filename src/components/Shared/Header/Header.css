@@ -1,12 +1,22 @@
-.header-color{
+.header{
     background-color: rgb(64, 170, 117)!important;
-    
+}    
+
+.header-text{
+    color: white !important;
+}
+
+.header-text:hover{
+   background-color: white !important;
+   color: black !important;
+   border-radius: 4px;
+
 }
 
 .btn-logout{
-    background-color: rgb(252, 99, 145) !important;
+    background-color: rgb(230, 223, 224) !important;
     border-radius: 500px;
-    color: rgb(255, 252, 252) !important;
+    color: rgb(17, 16, 16) !important;
     
 }
 .image{
