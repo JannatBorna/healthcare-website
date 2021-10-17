@@ -1,0 +1,16 @@
+.service{
+    height: 360px;
+    
+}
+.text-color{
+    color: tomato !important;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.details-btn{
+    background-color: rgb(64, 170, 117)!important;
+    width: 29%;
+    
+}
