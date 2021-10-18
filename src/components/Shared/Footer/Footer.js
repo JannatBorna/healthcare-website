@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Footer.css";
-import img from '../../../images/logo.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faFacebookSquare,
@@ -22,7 +21,8 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="left-container text-start">
-                                <img className="w-25" src={img} alt="" />
+                                <h2>Lifeline Medical <i class="fas fa-clinic-medical"></i></h2>
+                               
                                 <br />
                                 <div className="icons-container d-flex text-center ">
                                     <div className="icon">

@@ -1,6 +1,5 @@
 import React from 'react';
 import {Button, Container, Nav, Navbar} from 'react-bootstrap';
-import Image from '../../../images/logo.png'
 import './Header.css';
 
 const Header = () => {
@@ -8,8 +7,8 @@ const Header = () => {
         <Navbar collapseOnSelect expand="lg" className="header" sticky="top">
             <Container >
                 <Navbar.Brand href="#home">
-                   
-                    <img className="image w-25 ms-5" src={Image} alt="" />
+                    Lifeline Medical <i class="fas fa-clinic-medical"></i>
+                    
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className=" header-text"/>
                 <Navbar.Collapse id="responsive-navbar-nav" >
