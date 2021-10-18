@@ -11,7 +11,9 @@ const Register = () => {
     // const { processLogin } = useAuth();
     return (
         <div className="from ">
+            <h1 className="text-center fw-3 my-5">Welcome To Our <span className="text-color">Lifeline Medical</span></h1>
            <Container>
+                
                 <>
                     <Row>
                         <Col lg={5} md={7} className="input-from">
@@ -27,7 +29,7 @@ const Register = () => {
                                     <Form.Control type="password" placeholder="Password" />
                                 </FloatingLabel>
 
-                                <Button className="button-b my-5" variant="primary" type="submit">
+                                <Button className="Reg-btn my-5" variant="primary" type="submit">
                                 Register
                                 </Button>
                                 <Link to="/"></Link>
