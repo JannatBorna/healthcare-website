@@ -9,7 +9,7 @@ const Header = () => {
             <Container >
                 <Navbar.Brand href="#home">
                    
-                    <img className="image" src={Image} alt="" />
+                    <img className="image w-25 ms-5" src={Image} alt="" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className=" header-text"/>
                 <Navbar.Collapse id="responsive-navbar-nav" >

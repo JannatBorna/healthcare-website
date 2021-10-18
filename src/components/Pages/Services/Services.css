@@ -1,5 +1,5 @@
 .service{
-    height: 360px;
+    height: 380px;
     
 }
 .text-color{
@@ -9,8 +9,24 @@
 }
 
 
-.details-btn{
+/* .details-btn{
     background-color: rgb(64, 170, 117)!important;
     width: 29%;
     
+} */
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+.more-btn {
+  background-color: rgb(64, 170, 117)!important;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-weight: bolder;
+  font-size: 10px;
+ 
 }
