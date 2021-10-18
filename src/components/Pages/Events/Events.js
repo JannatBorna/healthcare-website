@@ -12,7 +12,7 @@ const Events = () => {
         <div>
             <Container >
                 <h2 className="text-center fw-3">Best Medical <span className="text-color">&</span> Healthcare</h2>
-                <Row lg={1} md={3} xs={1} className="g-4">
+               
                 <div className="care-card">
                     <Card className=" event bg-dark text-white w-100">
                         <Card.Img src={Image2} />
@@ -47,19 +47,9 @@ const Events = () => {
                         </Card.ImgOverlay>
                     </Card>
 
-                    {/* <Card className="bg-dark text-white w-75 ">
-                        <Card.Img src={Image4} />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
-                            </Card.Text>
-                           
-                        </Card.ImgOverlay>
-                    </Card> */}
+                    
                 </div>
-                </Row>
+              
             </Container>
         </div>
     );

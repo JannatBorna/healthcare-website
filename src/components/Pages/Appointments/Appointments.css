@@ -1,0 +1,23 @@
+.appoint{
+    display: flex;
+
+   
+}
+
+
+/* make it responsive */
+@media only screen and (max-width: 688px){
+    .appoint{
+        /* grid-template-columns: repeat(1, 1fr); */
+        display: flex;
+
+    }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 991px){
+        .appoint{
+        /* grid-template-columns: repeat(2, 1fr); */
+        display: flex;
+        
+    }
+}
