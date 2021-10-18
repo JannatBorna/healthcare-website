@@ -4,6 +4,7 @@ import About from '../About/About';
 import Appointments from '../Appointments/Appointments';
 import Banner from '../Banner/Banner';
 import Events from '../Events/Events';
+import Login from '../Login/Login';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
 
@@ -21,6 +22,7 @@ const Home = () => {
             <Team></Team>
             <Appointments></Appointments>
             <Register></Register>
+            <Login></Login>
             
         </div>
     );

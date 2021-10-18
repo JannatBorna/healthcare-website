@@ -14,7 +14,7 @@ const Register = () => {
            <Container>
                 <>
                     <Row>
-                        <Col lg={5} md={4} className="input-from">
+                        <Col lg={5} md={7} className="input-from">
                             <div className="my-5 mx-5">
                                 <FloatingLabel
                                     controlId="floatingInput"
@@ -41,7 +41,7 @@ const Register = () => {
                             
                         </Col>
 
-                        <Col lg={7} md={8}>
+                        <Col lg={7} md={5}>
                             <div>
                                 <img className="w-75" src={img} alt="" />
                             </div>
