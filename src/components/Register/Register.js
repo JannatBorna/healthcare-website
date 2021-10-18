@@ -3,12 +3,14 @@ import { Form, Button, FloatingLabel, Row, Col, Container } from 'react-bootstra
 import './Register.css';
 import img from '../../images/signup.png';
 import { Link } from 'react-router-dom';
-//import useAuth from './../../hook/useAuth';
+import useAuth from '../../hook/useAuth';
+
 
 
 
 const Register = () => {
-    // const { processLogin } = useAuth();
+    
+    const { signInWithGoogle, signInWithGithub } = useAuth();
     return (
         <div className="from ">
             <h1 className="text-center fw-3 my-5">Welcome To Our <span className="text-color">Lifeline Medical</span></h1>
@@ -34,10 +36,12 @@ const Register = () => {
                                 </Button>
                                 <Link to="/"></Link>
                                 <span>I have an account <Link to="/login">Login</Link></span><br />
-
-                                <button className="online-btn google"><i class="fab fa-google"></i>Google</button>
+  
+                               {/*----google------ */}
+                                <button onClick={signInWithGoogle}  className="online-btn google"><i class="fab fa-google"></i>Google</button>
                               
-                             <button className="online-btn github"><i class="fab fa-github"></i> Github</button>
+                              {/*-------github--------- */}
+                                <button onClick={signInWithGithub} className="online-btn github"><i class="fab fa-github"></i> Github</button>
                             
                          </div>
                             

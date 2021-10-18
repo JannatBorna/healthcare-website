@@ -1,8 +1,10 @@
 import React from 'react';
 import {Button, Container, Nav, Navbar} from 'react-bootstrap';
+import useAuth from '../../../hook/useAuth';
 import './Header.css';
 
 const Header = () => {
+    const { user, logOut} = useAuth();
     return (
         <Navbar collapseOnSelect expand="lg" className="header" sticky="top">
             <Container >
@@ -22,10 +24,16 @@ const Header = () => {
                     </Nav>    
                     
                     <Nav>
-                        <Button className="btn-logout mx-2" variant="secondary">Logout</Button>
-                        <Nav.Link href="/login" className=" header-text mx-3">Login</Nav.Link>
+                        {
+                            user?.email ?
+                            <Button onClick={logOut} className="btn-logout mx-2" variant="secondary">Logout</Button>
+                            :
+                            <Nav.Link href="/login" className="header-text mx-3">Login</Nav.Link>
+                            
+                        }
+
                         <Navbar.Text>
-                            Signed in as: <a href="#login"></a>
+                            Signed in as: <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>      
                     </Nav>    
                                 

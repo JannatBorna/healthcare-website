@@ -3,11 +3,12 @@ import { Form, Button, FloatingLabel, Row, Col, Container } from 'react-bootstra
 import './Login.css';
 import img from '../../../images/login2.png';
 import { Link } from 'react-router-dom';
-//import useAuth from './../../../hook/useAuth';
+import useAuth from './../../../hook/useAuth';
+
 
 
 const Login = () => {
-    //const { signInWithGoogle, signInWithGithub, processLogin } = useAuth();
+    const { signInWithGoogle, signInWithGithub} = useAuth();
     return (
         <div className="from my-5">
             <h1 className="text-center fw-3 my-5"><span className="text-color">L</span>ogin Now</h1>
@@ -32,10 +33,12 @@ const Login = () => {
 
                             <Link href="/">Forgot password</Link><br />
                             <span>Create a new account <a href="/register">Register</a></span><br/>
-
-                            <button className="online-btn google"><i class="fab fa-google"></i> Google</button>
+                             
+                             {/*--------- Google--------- */}
+                            <button onClick={signInWithGoogle} className="online-btn google"><i class="fab fa-google"></i> Google</button>
                             
-                            <button className="online-btn github "><i class="fab fa-github"></i> Github</button>
+                               {/* ---------Github--------- */}
+                            <button onClick={signInWithGithub} className="online-btn github "><i class="fab fa-github"></i> Github</button>
 
                         </div>
                        </Col>

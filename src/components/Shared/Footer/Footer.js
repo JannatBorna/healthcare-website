@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="left-container text-start">
-                                <h2>Lifeline Medical <i class="fas fa-clinic-medical"></i></h2>
+                                <h2>Lifeline Medical <i className="fas fa-clinic-medical icon"></i></h2>
                                
                                 <br />
                                 <div className="icons-container d-flex text-center ">
@@ -45,7 +45,7 @@ const Footer = () => {
                                 </p>
 
                                 <p className="mt-5">
-                                    <small>dynamic-health-care ©  All rights </small>
+                                    <small>lifeline-medical ©  All rights </small>
                                 </p>
                             </div>
                         </div>
@@ -82,9 +82,9 @@ const Footer = () => {
                                     </div>
                                     <div>
                                         <p>
-                                            www.dynamic healthcare.com
+                                            www.LifelineMedical.com
                                             <br />
-                                            Health-Care@dynamic.com
+                                            lifeline@medical.com
                                         </p>
                                     </div>
                                 </div>

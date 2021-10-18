@@ -12,20 +12,16 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            
             <Services></Services>
-            <br />
             <About></About>
             <Events></Events>
-            <br />
-
             <Team></Team>
             <Appointments></Appointments>
-            <Register></Register>
-            <Login></Login>
             
-        </div>
+           </div>
     );
 };
 
-export default Home;
+export default Home;  
+            
+       
