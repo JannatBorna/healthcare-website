@@ -8,8 +8,7 @@ const Appointments = () => {
         <div className="my-5">
             <h2 className="text-center fw-3">Make An <span className="text-color">A</span>ppointment Now</h2>
             <Container className="appoint shadow w-75 input-form my-3">
-                  {/* <Row>
-                      <Col lg={1} md={12}> */}
+                  
                         <>
                             <div className="w-50 my-5">
                                 <InputGroup className="mb-3">
@@ -64,11 +63,7 @@ const Appointments = () => {
 
                             </div>
                         </>
-                        
-                      {/* </Col>
-                  </Row> */}
-               
-                </Container>
+                    </Container>
         </div>
     );
 };
@@ -83,4 +78,6 @@ export default Appointments;
                 
 
                 
-            
+                 
+               
+               

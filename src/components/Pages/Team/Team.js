@@ -86,87 +86,12 @@ const Team = () => {
 
             </Row>
         </Container>   
-      
-        
- 
-    );
+      );
 };
 
 export default Team;
 
-{/* <div className="container-fluid my-5 card">
-                <h1 className="text-center fw-bold mb-5">Owl <span className="text-danger">Carousel</span></h1>
-                <div className="row">
-                    <div className="col-12 m-auto ">
-                        <div>
-                            <div className="item mb-4">
-                                <div className="card border-0 shadow w-25">
-                                    <img src={img1} alt="" className="card-img-top w-25" />
-                                    <div className="card-body">
-                                        <div className="card-title text-center">
-                                            <h4>Owl Carousel</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="item ">
-                                <div className="card border-0 shadow w-25">
-                                    <img src={img2} alt="" className="card-img-top w-25" />
-                                    <div className="card-body">
-                                        <div className="card-title text-center">
-                                            <h4>Owl Carousel</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="item">
-                                <div className="card border-0 shadow w-25">
-                                    <img src={img3} alt="" className="card-img-top w-25" />
-                                    <div className="card-body">
-                                        <div className="card-title text-center">
-                                            <h4>Owl Carousel</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="item">
-                                <div className="card border-0 shadow w-25">
-                                    <img src={img4} alt="" className="card-img-top w-25" />
-                                    <div className="card-body">
-                                        <div className="card-title text-center">
-                                            <h4>Owl Carousel</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="item">
-                                <div className="card border-0 shadow w-25">
-                                    <img src={img5} alt="" className="card-img-top w-25" />
-                                    <div className="card-body">
-                                        <div className="card-title text-center">
-                                            <h4>Owl Carousel</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="item">
-                                <div className="card border-0 shadow w-25">
-                                    <img src={img6} alt="" className="card-img-top w-25" />
-                                    <div className="card-body">
-                                        <div className="card-title text-center">
-                                            <h4>Owl Carousel</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-    
+ 
+        
+ 
+   

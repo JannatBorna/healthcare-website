@@ -33,24 +33,24 @@ const Services = () => {
                                 {/* <Button className="my-2 details-btn align-self-center" type="submit" >See More<i class="fas fa-arrow-right"></i></Button> */}
                                 <a href="#">See more <button className="more-btn my-3"><i className="fas fa-arrow-right"></i></button></a>
                               </Card>
-
-                            
-                                
-                            
-
-                        </Col>)
-
-
-                       
-
+                            </Col>)
                     }
                 </Row>
             </Container>
         </div>
-
-        
-        
-    );
+   );
 };
 
 export default Services;
+                            
+        
+        
+   
+
+                       
+
+                   
+                                
+                            
+
+                        

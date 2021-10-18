@@ -47,18 +47,18 @@ const Register = () => {
                             <div>
                                 <img className="w-75" src={img} alt="" />
                             </div>
-
                         </Col>
                     </Row>
                 </>
 
            </Container>
-
-
         </div>
-
-
-    );
+   );
 };
 
 export default Register;
+        
+                        
+
+
+    

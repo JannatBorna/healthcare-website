@@ -3,14 +3,13 @@ import { Card, Container, Row } from 'react-bootstrap';
 import Image1 from '../../../images/care/care-1.png';
 import Image2 from '../../../images/care/care-2.png';
 import Image3 from '../../../images/care/care-3.png';
-import Image4 from '../../../images/care/care-4.png';
 
 import './Events.css'
 
 const Events = () => {
     return (
-        <div>
-            <Container >
+        <div className="my-5">
+            <Container>
                 <h2 className="text-center fw-3">Best Medical <span className="text-color">&</span> Healthcare</h2>
                
                 <div className="care-card">
@@ -46,8 +45,6 @@ const Events = () => {
                             
                         </Card.ImgOverlay>
                     </Card>
-
-                    
                 </div>
               
             </Container>
@@ -56,3 +53,5 @@ const Events = () => {
 };
 
 export default Events;
+                    
+                

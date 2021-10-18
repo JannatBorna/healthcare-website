@@ -99,9 +99,7 @@ const About = () => {
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     
-                                    
-                            
-                              </Accordion>
+                                </Accordion>
 
                           </div>
                       </div>
@@ -112,4 +110,6 @@ const About = () => {
     );
 };
 
-export default About;
+export default About; 
+                            
+                              
