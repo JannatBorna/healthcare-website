@@ -24,8 +24,8 @@ const Services = () => {
                             <Card className="shadow service my-3">
                                 <Card.Img className="w-75 mx-auto my-2 rounded-circle" variant="top" src={service.img} />
                                 <Card.Body>
-                                    <Card.Title>{service.name}</Card.Title>
-                                    <Card.Text>
+                                    <Card.Title className="fw-normal fs-5">{service.name}</Card.Title>
+                                    <Card.Text className="fw-lighter fw-5">
                                         {service.description}
                                     </Card.Text>
                                     
