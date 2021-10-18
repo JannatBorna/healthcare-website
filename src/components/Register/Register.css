@@ -12,12 +12,12 @@
     transform: scale(1.05);
 }
 
-.button{
+.button-b{
     margin-left: 150px;
     background-color: rgb(226, 57, 91) !important;
     border-radius: 6px;
     margin-right: 500px;
-    width: 25%;
+    width: 40%;
 
 }
 

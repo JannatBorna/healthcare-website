@@ -10,9 +10,9 @@
     transform: scale(1.05);
 }
 
-.button{
+.button-c{
     margin-left: 170px;
-    background-color: rgb(64, 170, 117)!important;
+    background-color: rgb(226, 57, 91)!important;
     border-radius: 6px;
     margin-right: 500px;
     width: 20%;

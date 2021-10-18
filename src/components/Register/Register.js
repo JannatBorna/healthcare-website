@@ -27,7 +27,7 @@ const Register = () => {
                                     <Form.Control type="password" placeholder="Password" />
                                 </FloatingLabel>
 
-                                <Button className="button my-5" variant="primary" type="submit">
+                                <Button className="button-b my-5" variant="primary" type="submit">
                                 Register
                                 </Button>
                                 <Link to="/"></Link>
