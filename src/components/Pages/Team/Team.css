@@ -1,0 +1,24 @@
+.card-align{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+   
+}
+
+.doctor{
+    font-size: 12px;
+    color: coral;
+    font-weight: 500;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
