@@ -14,7 +14,7 @@ const Team = () => {
         
     return (
        
-        <Container>
+        <Container className="my-5">
             <h1 className="text-center fw-3">Our Doctor Tea<span className="text-color">M</span></h1>
             <Row lg={1} md={1} xs={1} className="g-4">
              <div className="card-align my-5">  

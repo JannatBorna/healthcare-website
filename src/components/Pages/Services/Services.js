@@ -12,8 +12,8 @@ const Services = () => {
          .then(data =>setServices(data))
      },[])
     return (
-        <div>
-            <Container className="my-5 ">
+        <div className="my-5">
+            <Container>
                 <h2 className="text-center fw-3"> <span className="text-color">O</span>ur Healthcare Services</h2>
                 <Row lg={3} md={2} xs={1} className="g-4">
                     {
