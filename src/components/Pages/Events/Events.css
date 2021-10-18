@@ -1,0 +1,46 @@
+.care-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.card{
+    position: relative;
+    overflow: hidden;
+}
+
+.event::before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 220%;
+    background: rgba(231, 140, 152, 0.7);
+    top:-50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
+}
+
+.event:hover::before{
+    left: 10%;
+
+}
+
+
+/* make it responsive */
+@media only screen and (max-width: 688px){
+    .care-card{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+@media only screen and (min-width: 689px) and (max-width: 991px){
+        .care-card{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}

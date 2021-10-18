@@ -16,8 +16,8 @@ const Team = () => {
        
         <Container>
             <h1 className="text-center fw-3">Our Doctor Tea<span className="text-color">M</span></h1>
-            <div className="card-align my-5">
-               
+            <Row lg={1} md={1} xs={1} className="g-4">
+             <div className="card-align my-5">  
                 <div className="card w-100 border-0 shadow" >
                     <div className="inner">
                         <img src={img1} className="card-img-top" alt="..." />
@@ -82,9 +82,9 @@ const Team = () => {
                     </div>
                 </div>
                
-
-
             </div>
+
+            </Row>
         </Container>   
       
         
