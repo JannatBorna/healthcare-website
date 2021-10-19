@@ -37,7 +37,7 @@ const Header = () => {
                         }
 
                         <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
+                            <span className="text">Signed in as:</span> <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
                     </Nav>    
                                 
