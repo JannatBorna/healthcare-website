@@ -4,6 +4,7 @@ import './Login.css';
 import img from '../../../images/login2.png';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from './../../../hook/useAuth';
+import { HashLink } from 'react-router-hash-link';
 
 
 
@@ -37,7 +38,8 @@ const Login = () => {
     return (
         <div className="from my-5">
             <h1 className="text-center fw-3 my-5"><span className="text-color">L</span>ogin Now</h1>
-            <Container onSubmit={handleRegistration}>
+            <Container>
+                <Form onSubmit={handleRegistration}>
                 <Row>
                     <Col lg={5} md={7} className="input-login">
                         <div className="my-5">
@@ -63,8 +65,8 @@ const Login = () => {
                             </Button>
 
                             <Link href="/">Forgot password</Link><br />
-                            <span>Create a new account <a href="/register">Register</a></span><br />
-                            
+                            <span>Create a new account <Link as={ HashLink } to="/register">Register</Link></span><br />
+                        Link
                              {/*--------- Google--------- */}
                             <button onClick={handleGoogleLogin} className="online-btn google"><i class="fab fa-google"></i> Google</button>
                             
@@ -81,6 +83,7 @@ const Login = () => {
 
                     </Col>
                 </Row>
+            </Form>
             </Container>
 
 
