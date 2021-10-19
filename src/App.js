@@ -13,6 +13,11 @@ import Events from './components/Pages/Events/Events';
 import AuthProvider from './context/AuthProvider';
 import Login from './components/Pages/Login/Login';
 import Register from './components/Register/Register';
+//import SingleService from './components/Pages/SingleService/SingleService';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+
+import Spinner from './components/Pages/Spinner/Spinner';
+import Details from './components/Pages/Details/Details';
 
 function App() {
   return (
@@ -46,13 +51,25 @@ function App() {
             </Route>
             
 
-            <Route exact path="/our team">
+            <PrivateRoute exact path="/our team">
               <Team></Team>
-            </Route>
+            </PrivateRoute>
+
+            <PrivateRoute exact path="/details/:serviceId">
+              <Details></Details>
+            </PrivateRoute>
+
+            <PrivateRoute exact path="/spinner">
+              <Spinner></Spinner>
+            </PrivateRoute>
 
             <Route exact path="/appointments">
               <Appointments></Appointments>
             </Route>
+ 
+            {/* <PrivateRoute path="/singleservice/:serviceId">
+             <SingleService></SingleService>
+            </PrivateRoute> */}
 
             <Route exact path="/login">
                <Login></Login>

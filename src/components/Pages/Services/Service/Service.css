@@ -1,0 +1,39 @@
+.service{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(212, 212, 212);
+    border-radius:20px ;
+    height: 395px;
+    width: 90%;
+}
+
+.service:hover{
+   
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+
+
+}
+
+.text-color{
+    color: tomato !important;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.text-description{
+    font-size: 13px;
+}
+
+.more-btn {
+  background-color: rgb(64, 170, 117)!important;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-weight: bolder;
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+  
+}
