@@ -67,12 +67,12 @@ const useFirebase = () => {
 
         
         if (password.length < 6) {
-            setError(' Must be at least 6 characters')
+            setError('Must be at least 6 characters')
             return;
         }
         if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
-            
-            setError(' Must contain 2 upper case');
+
+            setError('Must contain 2 upper case');
             return;
             
         }
