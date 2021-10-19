@@ -59,9 +59,9 @@ const About = () => {
                                     </Accordion.Item>
 
                                     <Accordion.Item eventKey="2">
-                                        <Accordion.Header><h2 className="fs-5">High caliber caregivers</h2></Accordion.Header>
+                                        <Accordion.Header><h2 className="fs-5">Help and FAQ</h2></Accordion.Header>
                                         <Accordion.Body>
-                                            In most locations, independent caregivers are paid between $10 – $20 per hour. The average hourly rate for home care agencies is available here.
+                                            Enter HealthTap. The popular app allows users to ask its team of 35,000 active, U.S.-licensed doctors health-related questions for free. The free service allows users to ask a question under 150 characters.
                                             <div className="d-flex">
 
                                                 <Card>
@@ -80,17 +80,17 @@ const About = () => {
 
 
                                     <Accordion.Item eventKey="3">
-                                        <Accordion.Header><h2 className="fs-5">A trusted partner</h2></Accordion.Header>
+                                        <Accordion.Header><h2 className="fs-5">Doctor patient relationship</h2></Accordion.Header>
                                         <Accordion.Body>
-                                            Trust is the social glue that holds business relationships together. partners who trust each other spend less time and energy protecting negotiations.
+                                            A doctor-patient relationship is formed when a doctor attends to a patient's medical needs and is usually through consent. This relationship is built on trust, respect, communication and patients' sides.
                                             <div className="d-flex">
 
                                                 <Card>
-                                                    <Card.Header><span className="text-danger">Peace of mind</span></Card.Header>
+                                                    <Card.Header><span className="text-danger">Love with a patient</span></Card.Header>
                                                     <Card.Body>
 
                                                         <Card.Text>
-                                                            Nano Home Care is the trusted referral choice for elder care professionals.
+                                                            Though instances of doctors and patients entering romantic relationships are indeed rare, or with former patients.
                                                         </Card.Text>
                                                         <Button variant="primary">See More</Button>
                                                     </Card.Body>

@@ -73,14 +73,14 @@ const Register = () => {
                                     Register
                                 </Button>
                                 <Link to="/"></Link>
-                                <span>I have an account <Link to="/login">Login</Link></span><br />
+                                <span className="mb-5">I have an account <Link to="/login">Login</Link></span><br />
                      
                                 
                                {/*----google------ */}
-                                <button onClick={handleGoogleLogin}  className="online-btn google"><i class="fab fa-google"></i>Google</button>
+                                <button onClick={handleGoogleLogin}  className="online-btn google mb-5"><i className="fab fa-google"></i> Google</button>
                               
                               {/*-------github--------- */}
-                                <button onClick={handleGithubLogin} className="online-btn github"><i class="fab fa-github"></i> Github</button>
+                                <button onClick={handleGithubLogin} className="online-btn github mb-5"><i class="fab fa-github"></i> Github</button>
                             
                          </div>
                             
