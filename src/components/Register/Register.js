@@ -50,8 +50,6 @@ const Register = () => {
                                 <Form.Control onBlur={handleNameChange} placeholder="Enter Name" />
                                  </FloatingLabel>   
                                     
-                                
-
                                 <FloatingLabel
                                     controlId="floatingInput"
                                     label="Email address"
@@ -65,11 +63,7 @@ const Register = () => {
                                 </FloatingLabel>
                                 <div className="row mb-3 text-danger fw-5">{error}</div>
 
-                                
-
-                                
-
-                                <Button className="Reg-btn my-5" variant="primary" type="submit">
+                                 <Button className="Reg-btn my-5" variant="primary" type="submit">
                                     Register
                                 </Button>
                                 <Link to="/"></Link>
@@ -103,5 +97,11 @@ export default Register;
         
                         
 
+                                
+
+                               
+
 
     
+
+                                
