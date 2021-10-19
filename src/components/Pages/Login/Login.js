@@ -15,6 +15,7 @@ const Login = () => {
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/details';
+    
     const handleGoogleLogin = () => {
        signInWithGoogle()
         .then(result => {
@@ -66,12 +67,12 @@ const Login = () => {
 
                             <Link href="/">Forgot password</Link><br />
                             <span>Create a new account <Link as={ HashLink } to="/register">Register</Link></span><br />
-                        Link
+                       
                              {/*--------- Google--------- */}
                             <button onClick={handleGoogleLogin} className="online-btn google"><i class="fab fa-google"></i> Google</button>
                             
                                {/* ---------Github--------- */}
-                            <button onClick={handleGithubLogin} className="online-btn github "><i class="fab fa-github"></i> Github</button>
+                                <button onClick={handleGithubLogin} className="online-btn github "><i className="fab fa-github"></i> Github</button>
 
                         </div>
                        </Col>

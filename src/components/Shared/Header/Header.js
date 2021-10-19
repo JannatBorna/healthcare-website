@@ -37,8 +37,8 @@ const Header = () => {
                         }
 
                         <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName?.email}</a>
-                        </Navbar.Text>      
+                            Signed in as: <a href="#login">{user?.displayName}</a>
+                        </Navbar.Text>
                     </Nav>    
                                 
                         

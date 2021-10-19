@@ -36,12 +36,10 @@ const useFirebase = () => {
     const signInWithGithub = () => {
         setIsLoading(true);
        return signInWithPopup(auth, githubProvider)
-            
-
             .finally(() => setIsLoading(false))
-            .catch(error => {
-                setError(error.message);
-            })
+
+            
+            
     }
 
 
@@ -89,21 +87,19 @@ const useFirebase = () => {
 
     //process login
     const processLogin = (email, password) => {
-        setIsLoading(true);
+        
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
                 console.log(user);
                 setError('');
             })
-            .catch(error => {
-                setError(error.message);
-            })
+            
 
     }
 
     const registerNewUser = (email, password) => {
-        setIsLoading(true);
+        
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
@@ -113,9 +109,7 @@ const useFirebase = () => {
                 setUserName();
             })
 
-            .catch(error => {
-                setError(error.message);
-            })
+            
     }
 
     const setUserName = () => {
