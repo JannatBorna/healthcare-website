@@ -8,11 +8,11 @@ import useAuth from './../../../hook/useAuth';
 
 
 const Login = () => {
-    const { signInWithGoogle, signInWithGithub} = useAuth();
+    const { signInWithGoogle, signInWithGithub, handleRegistration, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword} = useAuth();
     return (
         <div className="from my-5">
             <h1 className="text-center fw-3 my-5"><span className="text-color">L</span>ogin Now</h1>
-           <Container>
+            <Container onSubmit={handleRegistration}>
                 <Row>
                     <Col lg={5} md={7} className="input-login">
                         <div className="my-5">
@@ -21,19 +21,25 @@ const Login = () => {
                                 label="Email address"
                                 className="mb-3 w-75 mx-auto"
                             >
-                            <Form.Control type="email" placeholder="name@example.com" />
+                            <Form.Control 
+                            onBlur={handleEmailChange}
+                            type="email" placeholder="name@example.com" />
                             </FloatingLabel>
                             <FloatingLabel controlId="floatingPassword" label="Password" className="w-75 mx-auto">
-                                <Form.Control type="password" placeholder="Password" />
+                                <Form.Control 
+                            onBlur={handlePasswordChange}
+                                type="password" placeholder="Password" />
                             </FloatingLabel>
 
+                            <div className="row mb-3 text-danger fw-5">{error}</div>
+                              
                             <Button className="login-btn my-5" variant="primary" type="submit">
                                 Log-in
                             </Button>
 
                             <Link href="/">Forgot password</Link><br />
-                            <span>Create a new account <a href="/register">Register</a></span><br/>
-                             
+                            <span>Create a new account <a href="/register">Register</a></span><br />
+                            
                              {/*--------- Google--------- */}
                             <button onClick={signInWithGoogle} className="online-btn google"><i class="fab fa-google"></i> Google</button>
                             
