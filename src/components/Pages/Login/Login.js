@@ -2,13 +2,38 @@ import React from 'react';
 import { Form, Button, FloatingLabel, Row, Col, Container } from 'react-bootstrap';
 import './Login.css';
 import img from '../../../images/login2.png';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from './../../../hook/useAuth';
 
 
 
 const Login = () => {
     const { signInWithGoogle, signInWithGithub, handleRegistration, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword} = useAuth();
+    
+    ///login before private page -- google 
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/details';
+    const handleGoogleLogin = () => {
+       signInWithGoogle()
+        .then(result => {
+        history.push(redirect_uri)
+           
+      })
+    }
+
+    const handleGithubLogin = () => {
+        signInWithGithub()
+            .then(result => {
+                history.push(redirect_uri)
+
+            })
+    }
+
+
+
+    
+
     return (
         <div className="from my-5">
             <h1 className="text-center fw-3 my-5"><span className="text-color">L</span>ogin Now</h1>
@@ -41,10 +66,10 @@ const Login = () => {
                             <span>Create a new account <a href="/register">Register</a></span><br />
                             
                              {/*--------- Google--------- */}
-                            <button onClick={signInWithGoogle} className="online-btn google"><i class="fab fa-google"></i> Google</button>
+                            <button onClick={handleGoogleLogin} className="online-btn google"><i class="fab fa-google"></i> Google</button>
                             
                                {/* ---------Github--------- */}
-                            <button onClick={signInWithGithub} className="online-btn github "><i class="fab fa-github"></i> Github</button>
+                            <button onClick={handleGithubLogin} className="online-btn github "><i class="fab fa-github"></i> Github</button>
 
                         </div>
                        </Col>

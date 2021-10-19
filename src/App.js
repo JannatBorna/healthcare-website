@@ -46,9 +46,9 @@ function App() {
               <About></About>
             </Route>
 
-            <Route exact path="/event">
+            <PrivateRoute exact path="/event">
               <Events></Events>
-            </Route>
+            </PrivateRoute>
             
 
             <PrivateRoute exact path="/our team">
@@ -63,13 +63,14 @@ function App() {
               <Spinner></Spinner>
             </PrivateRoute>
 
-            <Route exact path="/appointments">
+            <PrivateRoute exact path="/appointments">
               <Appointments></Appointments>
-            </Route>
- 
-            {/* <PrivateRoute path="/singleservice/:serviceId">
-             <SingleService></SingleService>
-            </PrivateRoute> */}
+            </PrivateRoute>
+            
+            <PrivateRoute exact path="/details">
+             <Details></Details>
+            </PrivateRoute>
+            
 
             <Route exact path="/login">
                <Login></Login>
@@ -79,7 +80,7 @@ function App() {
               <Register></Register>
             </Route>
 
-
+            
             
 
 

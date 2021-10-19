@@ -22,10 +22,8 @@ const useFirebase = () => {
     // google
     const signInWithGoogle = () => {
         setIsLoading(true);
-        signInWithPopup(auth, googleProvider)
-        .then(result =>{
-            setUser(result.user)
-        })
+         return signInWithPopup(auth, googleProvider)
+        
             .finally(() => setIsLoading(false))
             .catch(error => {
                 setError(error.message);
@@ -37,10 +35,8 @@ const useFirebase = () => {
    //github
     const signInWithGithub = () => {
         setIsLoading(true);
-        signInWithPopup(auth, githubProvider)
-            .then(result => {
-                setUser(result.user)
-            })
+       return signInWithPopup(auth, githubProvider)
+            
 
             .finally(() => setIsLoading(false))
             .catch(error => {
@@ -93,6 +89,7 @@ const useFirebase = () => {
 
     //process login
     const processLogin = (email, password) => {
+        setIsLoading(true);
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
@@ -106,6 +103,7 @@ const useFirebase = () => {
     }
 
     const registerNewUser = (email, password) => {
+        setIsLoading(true);
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
