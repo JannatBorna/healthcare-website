@@ -13,7 +13,6 @@ import Events from './components/Pages/Events/Events';
 import AuthProvider from './context/AuthProvider';
 import Login from './components/Pages/Login/Login';
 import Register from './components/Register/Register';
-//import SingleService from './components/Pages/SingleService/SingleService';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 import Spinner from './components/Pages/Spinner/Spinner';
@@ -42,9 +41,9 @@ function App() {
               <Services></Services>
             </Route>
 
-             <Route exact path="/about">
+             <PrivateRoute exact path="/about">
               <About></About>
-            </Route>
+            </PrivateRoute>
 
             <PrivateRoute exact path="/event">
               <Events></Events>
@@ -80,12 +79,7 @@ function App() {
               <Register></Register>
             </Route>
 
-            
-            
-
-
-
-            <Route exact path="*">
+           <Route exact path="*">
               <NotFound></NotFound>
             </Route>
 
@@ -99,3 +93,9 @@ function App() {
 }
 
 export default App;
+ 
+            
+
+
+
+            
