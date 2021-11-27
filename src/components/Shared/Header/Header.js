@@ -20,8 +20,8 @@ const Header = () => {
                     <Nav className="me-auto">
                         <Nav.Link as={ HashLink } to="/home#home" className=" header-text">Home</Nav.Link>
                         <Nav.Link as={ HashLink } to="/services#services" className=" header-text">Services</Nav.Link>
-                        <Nav.Link as={ HashLink } to="/banner#banner" className=" header-text">Banner</Nav.Link>
-                        <Nav.Link as={ HashLink } to="/about#about" className=" header-text">About</Nav.Link>
+                        {/* <Nav.Link as={ HashLink } to="/banner#banner" className=" header-text">Banner</Nav.Link> */}
+                        {/* <Nav.Link as={ HashLink } to="/about#about" className=" header-text">About</Nav.Link> */}
                         <Nav.Link as={ HashLink } to="/event#event" className=" header-text">Event</Nav.Link>
                         <Nav.Link as={ HashLink } to="/our team#our team" className=" header-text">Our Team</Nav.Link>
                         <Nav.Link as={ HashLink } to="/appointments#appointments" className=" header-text">Appointments</Nav.Link>
