@@ -25,16 +25,16 @@ const Footer = () => {
                                
                                 <br />
                                 <div className="icons-container d-flex text-center ">
-                                    <div className="icon">
+                                    <div className="icon icon_instagram">
                                         <FontAwesomeIcon icon={faInstagramSquare} />
                                     </div>
-                                    <div className="icon">
+                                    <div className="icon icon_twitter">
                                         <FontAwesomeIcon icon={faTwitterSquare} />
                                     </div>
-                                    <div className="icon">
+                                    <div className="icon icon_youtube">
                                         <FontAwesomeIcon icon={faYoutube} />
                                     </div>
-                                    <div className="icon">
+                                    <div className="icon icon_facebook">
                                         <FontAwesomeIcon icon={faFacebookSquare} />
                                     </div>
                                 </div>
