@@ -16,7 +16,7 @@ const Header = () => {
                 <Container fluid>
                     <div className='header mt-2'>
                         <div>
-                            <Navbar.Brand href="#">  Lifeline Medical <i class="fas fa-clinic-medical"></i></Navbar.Brand>
+                            <Navbar.Brand href="#">Lifeline Medical <i class="fas fa-clinic-medical"></i></Navbar.Brand>
 
                         </div>
 

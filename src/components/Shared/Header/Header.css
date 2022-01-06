@@ -98,6 +98,11 @@
 
 }
 
+.fa-clinic-medical{
+    color: red;
+    font-size: 20px;
+}
+
 
 @media only screen and (max-width:688px) {
     .header {
@@ -122,6 +127,7 @@
         width: 77%;
     }
 }
+
 
 @media only screen and (min-width:689px) and (max-width: 991px) {
     .header {
