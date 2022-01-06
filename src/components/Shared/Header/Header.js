@@ -66,11 +66,11 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/" className='header_navbar'>Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link as={HashLink} to="/products" className='header_navbar'>Services</Nav.Link>
+                            <Nav.Link as={HashLink} to="/services" className='header_navbar'>Services</Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item as="li">
-                            <Nav.Link as={HashLink} to="/dashboard" className='header_navbar'>Dashboard</Nav.Link>
+                            <Nav.Link as={HashLink} to="/about" className='header_navbar'>About</Nav.Link>
                         </Nav.Item>
 
                         {
