@@ -1,3 +1,10 @@
+.headline_header{
+    color: rgb(29, 59, 95);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
 .header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -98,9 +105,9 @@
 
 }
 
-.fa-clinic-medical{
+.fa-clinic-medical {
     color: red;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 

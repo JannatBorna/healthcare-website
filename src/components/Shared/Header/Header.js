@@ -16,7 +16,7 @@ const Header = () => {
                 <Container fluid>
                     <div className='header mt-2'>
                         <div>
-                            <Navbar.Brand href="#">Lifeline Medical <i class="fas fa-clinic-medical"></i></Navbar.Brand>
+                            <Navbar.Brand href="#"><span className='headline_header'>Lifeline Medical</span> <i class="fas fa-clinic-medical"></i></Navbar.Brand>
 
                         </div>
 
@@ -35,7 +35,7 @@ const Header = () => {
                                 navbarScroll
                             >
                                 <div className='d-flex'>
-                                    <Nav.Link as={HashLink} to="/products"><i className="fas fa-layer-group mx-2"></i></Nav.Link>
+                                    <Nav.Link as={HashLink} to="/services"><i className="fas fa-layer-group mx-2"></i></Nav.Link>
 
                                     <Nav.Link as={HashLink} to="/cartpage"><i className="fas fa-shopping-cart mx-2"></i></Nav.Link>
 
