@@ -9,7 +9,7 @@ import { HashLink } from 'react-router-hash-link';
 
 
 const Login = () => {
-    const { signInWithGoogle, signInWithGithub, handleRegistration, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword} = useAuth();
+    const { signInWithGoogle, signInWithGithub, handleRegistration, handleEmailChange, handlePasswordChange} = useAuth();
     
     ///login before private page -- google 
     const location = useLocation();
