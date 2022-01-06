@@ -59,7 +59,7 @@ const Login = () => {
                                 type="password" placeholder="Password" />
                             </FloatingLabel>
 
-                            <div className="row mb-3 text-danger fw-5">{error}</div>
+                            {/* <div className="row mb-3 text-danger fw-5">{error}</div> */}
                               
                             <Button className="login-btn my-5" variant="primary" type="submit">
                                 Log-in

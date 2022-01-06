@@ -16,7 +16,7 @@ const Header = () => {
                 <Container fluid>
                     <div className='header mt-2'>
                         <div>
-                            <Navbar.Brand href="#"><i className="fab fa-etsy"></i><span className='commerce'>-commerce</span></Navbar.Brand>
+                            <Navbar.Brand href="#">  Lifeline Medical <i class="fas fa-clinic-medical"></i></Navbar.Brand>
 
                         </div>
 
@@ -66,7 +66,7 @@ const Header = () => {
                             <Nav.Link as={HashLink} to="/" className='header_navbar'>Home</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link as={HashLink} to="/products" className='header_navbar'>Stores</Nav.Link>
+                            <Nav.Link as={HashLink} to="/products" className='header_navbar'>Services</Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item as="li">
@@ -89,6 +89,7 @@ const Header = () => {
                                         className="btn-logout mx-2" variant="secondary">Logout
                                     </Button>
                                 </NavDropdown>
+
 
 
 
