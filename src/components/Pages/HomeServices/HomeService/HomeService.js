@@ -3,10 +3,10 @@ import { Container} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../../hook/useAuth';
 
-import './Service.css';
+// import './Service.css';
 
-const Service = ({ service }) => {
-    const { id, name,  description, img } = service;
+const HomeService = ({ homeService }) => {
+    const { id, name,  description, img } = homeService;
     const {user} = useAuth();
     return (
         <Container>
@@ -34,4 +34,5 @@ const Service = ({ service }) => {
 };
 
  
-        export default Service;
+export default HomeService;
+ 

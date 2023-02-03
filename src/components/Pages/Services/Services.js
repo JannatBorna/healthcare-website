@@ -18,7 +18,7 @@ const Services = () => {
 
     return (
         <div id="services">
-            <h2 className="text-center fw-3">Healthcare <span className="text-color">Services</span></h2>
+            <h2 className="text-center fw-3">Health Care <span className="text-color">Services</span></h2>
             <div className="service-container">
                 {
                     services.map(service => <Service
@@ -34,7 +34,7 @@ const Services = () => {
 
             
 
-    export default Services;
+ export default Services;
 
 
 

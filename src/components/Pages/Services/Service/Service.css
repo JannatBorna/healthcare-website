@@ -1,32 +1,18 @@
 .service{
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(212, 212, 212);
-    border-radius:20px ;
-    height: 440px;
-    width: 90%;
+    border-radius:6px ;
+    /* height: 440px; */
+    
 }
 
-.service:hover{
-   
-    z-index: 1;
-    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
-    transform: scale(1.05);
+.service img{
+    width: 100%;
+  border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
 }
-
 
 
 .text-description{
     font-size: 13px;
-}
-
-.more-btn {
-  background-color: #e1281e!important;
-  color: white;
-  border-radius: 50%;
-  border: none;
-  font-weight: bolder;
-  font-size: 10px;
-  text-align: center;
-  justify-content: center;
-  
 }
