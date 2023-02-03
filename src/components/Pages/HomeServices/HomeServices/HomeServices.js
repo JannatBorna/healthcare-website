@@ -21,7 +21,7 @@ const HomeServices = () => {
     return (
         <div id="services">
             <h2 className="text-center fw-3">Health Care <span className="text-color">Services</span></h2>
-            <div className="service-container">
+            <div className="service-container mt-5">
                 {
                     homeServices.slice(0, limit ? limit : homeServices.length).map(homeService => <HomeService
                         key={homeService.id}
