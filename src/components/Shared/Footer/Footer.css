@@ -1,3 +1,10 @@
+.footer-container {
+  background-color: #191919;
+  padding: 10px;
+  color: rgb(252, 243, 243);
+}
+
+
 .icon {
   margin: 5px;
   padding: 5px;
@@ -5,20 +12,40 @@
   font-size: 30px;
 }
 
+.logo-text{
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.footer-logo{
+  border-bottom: 1px solid white !important;
+  border-radius: 50px;
+  width: 50%;
+  text-align: center;
+
+}
+
+.footer-text{
+  font-size: 12px;
+  padding:10px;
+  margin: 5px;
+}
+
+
 .icon_instagram:hover {
-  color: rgb(172, 69, 69) !important;
+  color: #dc4444 !important;
 }
 
 .icon_twitter:hover {
-  color: rgb(92, 133, 158) !important;
+  color: #1a95e1 !important;
 }
 
 .icon_youtube:hover {
-  color: rgb(128, 75, 75) !important;
+  color: #f50000 !important;
 }
 
 .icon_facebook:hover {
-  color: rgb(82, 94, 151) !important;
+  color: #032bf5 !important;
 }
 
 .footer-menu {
@@ -29,7 +56,7 @@
 }
 
 .footer-menu:hover {
-  color: rgb(64, 170, 117);
+  color: #08f67f;
 }
 
 .footer-input {
@@ -39,11 +66,6 @@
   background-color: rgb(226, 226, 226);
 }
 
-.footer-container {
-  background-color: #191919;
-  padding: 50px;
-  color: rgb(252, 243, 243);
-}
 
 .footer-phone-icon {
   font-size: 30px;
@@ -64,4 +86,9 @@
 
 .icon_facebook {
   color: rgb(21, 51, 199) !important;
+}
+
+.footer-copy-text{
+  font-size: 10px;
+  text-align: center;
 }

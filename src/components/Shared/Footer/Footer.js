@@ -6,12 +6,16 @@ import {
     faInstagramSquare,
     faTwitterSquare,
     faYoutube,
+
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
     faPhoneVolume,
-    faMapMarkedAlt,
+    faEnvelope,
+    faGlobe
 } from "@fortawesome/free-solid-svg-icons";
+
+import logo from '../../../images/plus.png';
 
 const Footer = () => {
     return (
@@ -19,37 +23,19 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-5">
+                        <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="left-container text-start">
-                                <h2>Lifeline Medical <i className="fas fa-clinic-medical icon"></i></h2>
-                               
-                                <br />
-                                <div className="icons-container d-flex text-center ">
-                                    <div className="icon icon_instagram">
-                                        <FontAwesomeIcon icon={faInstagramSquare} />
-                                    </div>
-                                    <div className="icon icon_twitter">
-                                        <FontAwesomeIcon icon={faTwitterSquare} />
-                                    </div>
-                                    <div className="icon icon_youtube">
-                                        <FontAwesomeIcon icon={faYoutube} />
-                                    </div>
-                                    <div className="icon icon_facebook">
-                                        <FontAwesomeIcon icon={faFacebookSquare} />
-                                    </div>
+                                <div className='footer-logo mt-5'>
+                                    <img src={logo} alt="" className='logo'/>
+                                    <span className='logo-text mx-3'>Lifeline Medical</span>
                                 </div>
-                                <p className="mt-4 ">
-                                    <small>
-                                        The toll-free helpline '+017 33 901 001' will be operational from Monday to Saturday between 10 am to 6 pm. It offers direct service in Dhaka, Comilla, Khulna, Dinajpur, Rangpur, Barisal, Faridpur, Pabna, Kushtia, Tangail, Patuakhali.
-                                    </small>
-                                </p>
-
-                                <p className="mt-5">
-                                    <small>lifeline-medical ©  All rights </small>
+                                <p className="footer-text mt-3">
+                                    The toll-free helpline '+017 33 901 001' will be operational from Monday to Saturday between 10 am to 6 pm. It offers direct service in Dhaka,Comilla, Khulna, Dinajpur, Rangpur, Barisal, Faridpur, Pabna, Kushtia, Tangail, Patuakhali.
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-2">
+
+                        <div className="col-lg-3 col-md-3 col-sm-12">
                             <div className="footer-menu-container">
                                 <ul>
                                     <li className="footer-menu">Home</li>
@@ -60,38 +46,53 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-md-5">
-                            <div className="right-footer-container">
-                                <h3>Sign up</h3>
-                                <input
-                                    className="footer-input"
-                                    type="text"
-                                    placeholder="Enter Email"
-                                />
-                                <div className="phone d-flex align-items-center justify-content-center mt-4">
-                                    <div className="footer-phone-icon">
-                                        <FontAwesomeIcon icon={faPhoneVolume} />
-                                    </div>
-                                    <div>
-                                        <h5>+0 1 7 457 908 54</h5>
-                                    </div>
-                                </div>
-                                <div className="map d-flex align-items-center justify-content-center">
-                                    <div className="footer-phone-icon">
-                                        <FontAwesomeIcon icon={faMapMarkedAlt} />
-                                    </div>
-                                    <div>
-                                        <p>
-                                            www.LifelineMedical.com
-                                            <br />
-                                            lifeline@medical.com
-                                        </p>
-                                    </div>
-                                </div>
+
+                        <div className="col-lg-3 col-md-3 col-sm-12">
+                            <div className='d-flex'>
+                                <FontAwesomeIcon icon={faPhoneVolume} /> 
+                                <h5>+0 1 7 457 908 54</h5>
                             </div>
+
+                            <div className='d-flex'>
+                                 <FontAwesomeIcon icon={faGlobe} />
+                                 <p> www.LifelineMedical.com </p> 
+                            </div>
+
+                            <div className='d-flex'>
+                                 <FontAwesomeIcon icon={faEnvelope} />
+                                <p>lifeline@medical.com</p>
+                            </div>
+
+                            <div className="icons-container d-flex text-center ">
+                                <div className="icon icon_instagram">
+                                    <FontAwesomeIcon icon={faInstagramSquare} />
+                                </div>
+                                <div className="icon icon_twitter">
+                                    <FontAwesomeIcon icon={faTwitterSquare} />
+                                </div>
+                                <div className="icon icon_youtube">
+                                    <FontAwesomeIcon icon={faYoutube} />
+                                </div>
+                                <div className="icon icon_facebook">
+                                    <FontAwesomeIcon icon={faFacebookSquare} />
+                                 </div>
+                            </div>
+                        </div>
+
+
+                        <div className="col-lg-3 col-md-3 col-sm-12">
+                          <div className=''>
+                              <input className="footer-input mx-1 mb-3" type="text" placeholder="Enter Email" />
+                              <textarea rows="2" cols="21" placeholder='message'></textarea>
+                              <br />
+                              <button type="submit">Subscribe</button>
+                          </div>
+                          
                         </div>
                     </div>
                 </div>
+
+                   <p className="footer-copy-text">lifeline-medical ©  All rights</p>
             </div>
         </div>
     );
@@ -99,3 +100,4 @@ const Footer = () => {
 
 
 export default Footer;
+    
