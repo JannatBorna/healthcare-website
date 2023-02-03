@@ -36,57 +36,100 @@ const Footer = () => {
                         </div>
 
                         <div className="col-lg-3 col-md-3 col-sm-12">
-                            <div className="footer-menu-container">
+                            <div className="footer-list mt-4 d-flex">
                                 <ul>
-                                    <li className="footer-menu">Home</li>
-                                    <li className="footer-menu">Services</li>
-                                    <li className="footer-menu">About</li>
-                                    <li className="footer-menu">Contact us</li>
+                                    <li>Free Meeting</li>
+                                    <li>Social Media</li>
+                                    <li>Email Tracking </li>
+                                    <li>Contact us</li>
+                                    <li>Sales Automation</li>
+                                    <li>Ads Software</li>
+                                    <li>Email Marketing</li>
+                                    <li>Lead Management</li>
+                                    <li>line Management</li>
+                                </ul>
 
+                                 <ul>
+                                    <li>Management Team</li>
+                                    <li>Board of Directors</li>
+                                    <li>Investor Relationst</li>
+                                    <li>Free Website Builder</li>
+                                    <li>Sales Templates</li>
+                                    <li>Help Desk Software</li>
+                                    <li>Free Online Form</li>
+                                    <li>Marketing Analytics</li>
+                                    <li>Free Web Hosting</li>
                                 </ul>
                             </div>
                         </div>
 
+
                         <div className="col-lg-3 col-md-3 col-sm-12">
-                            <div className='d-flex'>
-                                <FontAwesomeIcon icon={faPhoneVolume} /> 
-                                <h5>+0 1 7 457 908 54</h5>
+                            <div className="footer-list mt-4 d-flex">
+                                <ul>
+                                    <li>Inspiration</li>
+                                    <li>Wishlists</li>
+                                    <li>No-Code movement</li>
+                                    <li>Customers</li>
+                                    <li>Community</li>
+                                    <li>Hire an Experte</li>
+                                    <li>Cookie policye</li>
+                                    <li>Accessibility</li>
+                                    <li>Hosting</li>
+                                </ul>
+
+                                 <ul>
+                                    <li>Memberships</li>
+                                    <li>Interactions</li>
+                                    <li>Investor Relationst</li>
+                                    <li>RSS feed</li>
+                                    <li>Archive</li>
+                                    <li>All Partner Programs</li>
+                                    <li>Affiliate Program</li>
+                                    <li>HubSpot for Startups</li>
+                                    <li>Ebooks</li>
+                                </ul>
                             </div>
 
-                            <div className='d-flex'>
-                                 <FontAwesomeIcon icon={faGlobe} />
-                                 <p> www.LifelineMedical.com </p> 
-                            </div>
 
-                            <div className='d-flex'>
-                                 <FontAwesomeIcon icon={faEnvelope} />
-                                <p>lifeline@medical.com</p>
-                            </div>
-
-                            <div className="icons-container d-flex text-center ">
-                                <div className="icon icon_instagram">
-                                    <FontAwesomeIcon icon={faInstagramSquare} />
-                                </div>
-                                <div className="icon icon_twitter">
-                                    <FontAwesomeIcon icon={faTwitterSquare} />
-                                </div>
-                                <div className="icon icon_youtube">
-                                    <FontAwesomeIcon icon={faYoutube} />
-                                </div>
-                                <div className="icon icon_facebook">
-                                    <FontAwesomeIcon icon={faFacebookSquare} />
-                                 </div>
-                            </div>
                         </div>
 
 
-                        <div className="col-lg-3 col-md-3 col-sm-12">
-                          <div className=''>
+                        <div className="col-lg-3 col-md-3 col-sm-12 mt-4">
+                            <div className='d-flex footer-social'>
+                                   <FontAwesomeIcon icon={faPhoneVolume} /> 
+                                   <p className='mx-2'><a href="tel:+4733378901">+23 303 745 971</a></p>
+                            </div>
+                            <div className='d-flex footer-social'>
+                                    <FontAwesomeIcon icon={faGlobe} />
+                                    <p className='mx-2'><a href="https://www.LifelineMedical.com/">LifelineMedical.com</a></p>
+                            </div>
+                            <div className='d-flex footer-social'>
+                                <FontAwesomeIcon icon={faEnvelope} />
+                                <p className='mx-2'><a href="mailto:lifeline@medical.com">lifeline@medical.com</a></p>
+                            </div>
+
+                            <div className="d-flex">
+                                <div className="icon-instagram">
+                                    <FontAwesomeIcon icon={faInstagramSquare} />
+                                </div>
+                                <div className="icon-twitter mx-4">
+                                    <FontAwesomeIcon icon={faTwitterSquare} />
+                                </div>
+                                <div className="icon-youtube">
+                                    <FontAwesomeIcon icon={faYoutube} />
+                                </div>
+                                <div className="icon-facebook mx-3">
+                                    <FontAwesomeIcon icon={faFacebookSquare} />
+                                </div>
+                            </div>
+
+                          <div className='mt-4'>
                               <input className="footer-input mx-1 mb-3" type="text" placeholder="Enter Email" />
-                              <textarea rows="2" cols="21" placeholder='message'></textarea>
-                              <br />
-                              <button type="submit">Subscribe</button>
+                              <button type="submit" className='subscribe-button'>Subscribe</button>
                           </div>
+
+                          
                           
                         </div>
                     </div>

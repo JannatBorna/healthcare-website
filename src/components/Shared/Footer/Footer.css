@@ -4,14 +4,6 @@
   color: rgb(252, 243, 243);
 }
 
-
-.icon {
-  margin: 5px;
-  padding: 5px;
-  color: rgb(228, 228, 228);
-  font-size: 30px;
-}
-
 .logo-text{
   font-size: 25px;
   font-family: cursive;
@@ -22,7 +14,6 @@
   border-radius: 50px;
   width: 50%;
   text-align: center;
-
 }
 
 .footer-text{
@@ -31,32 +22,24 @@
   margin: 5px;
 }
 
-
-.icon_instagram:hover {
-  color: #dc4444 !important;
+.icon {
+  margin: 5px;
+  padding: 5px;
+  color: rgb(228, 228, 228);
+  font-size: 30px;
 }
 
-.icon_twitter:hover {
-  color: #1a95e1 !important;
-}
 
-.icon_youtube:hover {
-  color: #f50000 !important;
-}
-
-.icon_facebook:hover {
-  color: #032bf5 !important;
-}
-
-.footer-menu {
+.footer-list ul li {
   list-style: none;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
 }
 
-.footer-menu:hover {
+.footer-list ul li:hover {
   color: #08f67f;
+  border-bottom:1px solid #f50000 !important;
 }
 
 .footer-input {
@@ -66,29 +49,40 @@
   background-color: rgb(226, 226, 226);
 }
 
-
-.footer-phone-icon {
-  font-size: 30px;
-  color: rgb(64, 170, 117);
+.icon-instagram {
+  color: #e26262 !important;
+  cursor: pointer;
 }
 
-.icon_instagram {
-  color: red !important;
+.icon-twitter {
+  color: #25b7e0 !important;
+  cursor: pointer;
 }
 
-.icon_twitter {
-  color: rgb(29, 133, 198) !important;
+.icon-youtube {
+  color: #f51818 !important;
+  cursor: pointer;
 }
 
-.icon_youtube {
-  color: rgb(245, 24, 24) !important;
+.icon-facebook {
+  color: #3d90d4 !important;
+  cursor: pointer;
 }
 
-.icon_facebook {
-  color: rgb(21, 51, 199) !important;
+.footer-social p a{
+text-decoration: none;
+color: white !important;
+font-size: 14px;
+}
+
+.subscribe-button{
+  background-color: #f50000 !important;
+  color: white !important;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 .footer-copy-text{
   font-size: 10px;
-  text-align: center;
+  text-align: start;
 }
