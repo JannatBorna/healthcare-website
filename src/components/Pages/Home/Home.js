@@ -9,7 +9,9 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Services></Services>
+            <div className='section-gap'>
+                <Services></Services>
+            </div>
             <Events></Events>
             <Team></Team>
             <Appointments></Appointments>

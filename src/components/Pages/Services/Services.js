@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import useAuth from '../../../hook/useAuth';
 import Service from './Service/Service';
 import './Services.css';
 
 const Services = () => {
-    const { user } = useAuth()
      const [services, setServices] = useState([]);
-    const [details, setDetails] = useState([])
          
      
      
@@ -21,7 +18,7 @@ const Services = () => {
 
     return (
         <div id="services">
-            <h2 className="text-center fw-3"> <span className="text-color">O</span>ur Healthcare Services</h2>
+            <h2 className="text-center fw-3">Healthcare <span className="text-color">Services</span></h2>
             <div className="service-container">
                 {
                     services.map(service => <Service
