@@ -1,7 +1,7 @@
 .container_banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: rgb(246, 255, 252) !important;
+    background-color: #f6fffc !important;
 }
 
 .container_header {
@@ -9,13 +9,14 @@
     padding: 20px;
 }
 
-.color_text {
-    color: coral !important;
+.banner-bold {
+    color: #f64a4a !important;
+    font-size: 50px;
 
 }
 
 .health_care {
-    color: rgb(87, 87, 87) !important;
+    color: #575757 !important;
     font-size: 27px;
 }
 
@@ -24,10 +25,13 @@
     color: rgb(126, 122, 122) !important;
 }
 
-.button_color {
-    background-color: rgb(24, 165, 106) !important;
+.banner-button {
+    background-color: #f64a4a !important;
+    padding: 0.5em;
+    border: 1px solid #f64a4a;
     color: white !important;
     text-decoration: none;
+    letter-spacing: 5px;
 }
 
 .picture {

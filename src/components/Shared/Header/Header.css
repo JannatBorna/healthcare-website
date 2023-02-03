@@ -7,9 +7,17 @@
     font-weight: 500;
 }
 
+.header-list:hover{
+   color: #f64a4a !important;
+}
+
 .login-list{
     color: #f5f2f2 !important;
     font-weight: 500;
+}
+
+.login-list:hover{
+   color: #f64a4a !important;
 }
 
 .login-nav{
