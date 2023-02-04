@@ -12,7 +12,7 @@
 .footer-logo{
   border-bottom: 1px solid white !important;
   border-radius: 50px;
-  width: 50%;
+  width: 70%;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@
 
 .footer-list ul li:hover {
   color: #08f67f;
-  border-bottom:1px solid #f50000 !important;
+  border-bottom:1px solid #0a3cf1 !important;
 }
 
 .footer-input {
@@ -60,7 +60,7 @@
 }
 
 .icon-youtube {
-  color: #f51818 !important;
+  color: #3b61e7 !important;
   cursor: pointer;
 }
 
@@ -80,6 +80,7 @@ font-size: 14px;
   color: white !important;
   padding: 8px;
   border-radius: 5px;
+  border: 1px solid #f50000 !important;
 }
 
 .footer-copy-text{

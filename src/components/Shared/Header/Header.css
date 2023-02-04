@@ -1,5 +1,15 @@
 .logo{
-    width: 8%;
+    width: 10%;
+}
+
+.logo-name{
+    color: white !important;
+    padding: 0.5em;
+    font-weight: 800;
+    border: 1px solid #ffffff !important;
+    border-end-end-radius: 15px;
+    border-top-left-radius: 15px;
+
 }
 
 .header-list {
@@ -8,7 +18,7 @@
 }
 
 .header-list:hover{
-   color: #f64a4a !important;
+   color: #0a3cf1 !important;
 }
 
 .login-list{
@@ -17,7 +27,7 @@
 }
 
 .login-list:hover{
-   color: #f64a4a !important;
+   color: #0a3cf1 !important;
 }
 
 .login-nav{
@@ -26,7 +36,7 @@
 }
 
 #basic-nav-dropdown{
-    color: red !important;
+    color: #e74f3b !important;
 }
 
 @media only screen and (max-width:688px) {

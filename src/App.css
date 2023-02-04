@@ -1,9 +1,9 @@
 /* -------------commom css--------------- */
 .text-color{
-    color: #f64a4a !important;
+    color: #3b61e7 !important;
     font-size: 40px;
     font-weight: 500;
-    border-bottom: 3px solid #f64a4a !important;
+    border-bottom: 3px solid #3b61e7 !important;
 }
 
 
@@ -19,9 +19,9 @@
 
 
 .button {
-    background-color: #f64a4a !important;
+    background-color: #0a3cf1 !important;
     padding: 0.5em;
-    border: 1px solid #f64a4a;
+    border: 1px solid #0a3cf1;
     color: white !important;
     text-decoration: none;
     letter-spacing: 4px;
@@ -30,7 +30,7 @@
 .button:hover{
     background-color: #fafafa !important;
     color: #000000 !important;
-    border: 1px solid #f64a4a !important;
+    border: 1px solid #0a3cf1 !important;
     z-index: 1;
     box-shadow: 0 8px 50px #fff9f933 !important;
     transform: scale(1.05);

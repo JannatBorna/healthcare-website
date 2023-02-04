@@ -2,7 +2,7 @@ import React from 'react';
 import {Button, Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import useAuth from '../../../hook/useAuth';
 import { HashLink } from 'react-router-hash-link';
-import logo from '../../../images/plus.png';
+import logo from '../../../images/heartbeat.png';
 import './Header.css';
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
             <Navbar bg="dark" expand="lg">
                 <Container fluid>
                      <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll >
-                        <Navbar.Brand href="#"> <img src={logo} alt="" className='logo'/></Navbar.Brand>
+                        <Navbar.Brand href="#"> <img src={logo} alt="" className='logo'/> <span className='logo-name'>Lifeline</span></Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                     </Nav>
 
