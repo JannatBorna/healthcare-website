@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import useAuth from '../../../hook/useAuth';
 import { HashLink } from 'react-router-hash-link';
 import logo from '../../../images/heartbeat.png';
@@ -34,9 +34,9 @@ const Header = () => {
                
                         <br />
 
-                        <Button onClick={logOut}
-                            className="btn-logout mx-2" variant="secondary">Logout
-                        </Button>
+                        <button onClick={logOut}
+                            className="button mx-2" variant="secondary">Logout
+                        </button>
                     </NavDropdown>
              
                     :

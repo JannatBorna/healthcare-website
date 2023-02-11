@@ -1,112 +1,86 @@
 import React from 'react';
-import { Container, Accordion, Button, Card } from 'react-bootstrap';
-import aboutImg from '../../../images/about.png';
+import { Card, Container, Row, Col } from 'react-bootstrap';
+import about1 from '../../../images/about-4.jpg';
+import about2 from '../../../images/about-3.png';
+import category1 from '../../../images/about-category/category-1.jpg';
+import category2 from '../../../images/about-category/category-2.jpg';
+import category3 from '../../../images/about-category/category-3.jpg';
+import './About.css';
 
 const About = () => {
     return (
-        <div className="my-5">
-            <Container>
-                <h2 className="text-center fw-3">About <span className="text-color">U</span>s</h2>
-                <div className="card mb-3 w-100">
-                    <div className="row g-0">
-                        <div className="col-md-4">
-                            <img src={aboutImg} className="img-fluid rounded-start" alt="..." />
+        <div>
+            <Card className="text-dark">
+                <Card.Img src={about1} alt="Card image" className='about-card'/>
+                <Card.ImgOverlay  className='about-card-text section-gap'>
+                    <Card.Title><h1>About <span className="text-color">Us</span></h1> </Card.Title>
+                    <Card.Text>
+                       <p>Good health is central to human happiness and <b>well-being that contributes</b> significantly to prosperity and wealth and even economic progress, as healthy populations are more productive, save more and live longer.</p>
+                       <button className='button'>Get started</button>
+                    </Card.Text>
+                </Card.ImgOverlay>
+            </Card>
+
+    <Container>
+        <Row>
+            <Col lg={12} md={12} sm={12}>
+                <div className='text-center section-gap'>
+                    <h2>Procedure Category</h2>
+                    <p>A doctor plays the most vital role in society. He is certified for ensuring the treatment and remedy for sick people. <br/> A nutritionist suggests a food chart for taking care of health. Doctor because they have to respond to the emergency patient anytime.</p>
+                </div>
+            </Col>
+        </Row>
+
+
+        <Row>
+            <Col lg={4} md={6} sm={12}>
+                <div className='section-gap category'>
+                    <img src={category1} alt="" />
+                        <div className="middle">
+                            <div className="text">EMERGENCY TREATMENT</div>
+                        </div>                   
+                </div>
+            </Col>
+
+            <Col lg={4} md={6} sm={12}>
+                <div className='section-gap category'>
+                    <img src={category2} alt="" />
+                        <div className="middle">
+                            <div className="text">EMERGENCY TREATMENT</div>
                         </div>
-                        <div className="col-md-8">
-                            <div className="card-body">
-                                
+                </div>
+            </Col>
 
-                                <Accordion defaultActiveKey="0" flush>
-                                    <Accordion.Item eventKey="0">
-                                        <Accordion.Header><h2 className="fs-5">Daily care experts</h2></Accordion.Header>
-                                        <Accordion.Body>
-                                            An expert is somebody who has a broad and deep competence in terms of knowledge, skill and experience through practice and education in a particular field.
-                                            <div className="d-flex">
-                                                
-                                                  <Card>
-                                                    <Card.Header><span className="text-danger">Experts are called</span></Card.Header>
-                                                    <Card.Body>
-                                                        
-                                                        <Card.Text>
-                                                            In for advice on their respective subject, but they do not always agree.
-                                                        </Card.Text>
-                                                        <Button variant="primary">See More</Button>
-                                                    </Card.Body>
-                                                </Card>
-                                            </div>
-                                         </Accordion.Body>       
-                                     </Accordion.Item>
-
-                                        
-                                    <Accordion.Item eventKey="1">
-                                        <Accordion.Header><h2 className="fs-5">Balanced care</h2></Accordion.Header>
-                                        <Accordion.Body>
-                                            BalancedCare is a trusted, non-profit organization, dedicated to helping the elderly and disabled, preserve and manage their finances and qualify for Medicaid.
-                                            <div className="d-flex">
-
-                                                <Card>
-                                                    <Card.Header><span className="text-danger">Support patient wellness</span></Card.Header>
-                                                    <Card.Body>
-
-                                                        <Card.Text>
-                                                            Our unique approach to care promotes healthy mind, body and spirit.
-                                                        </Card.Text>
-                                                        <Button variant="primary">See More</Button>
-                                                    </Card.Body>
-                                                </Card>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-
-                                    <Accordion.Item eventKey="2">
-                                        <Accordion.Header><h2 className="fs-5">Help and FAQ</h2></Accordion.Header>
-                                        <Accordion.Body>
-                                            Enter HealthTap. The popular app allows users to ask its team of 35,000 active, U.S.-licensed doctors health-related questions for free. The free service allows users to ask a question under 150 characters.
-                                            <div className="d-flex">
-
-                                                <Card>
-                                                    <Card.Header><span className="text-danger">Caregiver Cost</span></Card.Header>
-                                                    <Card.Body>
-                                                      
-                                                        <Card.Text>
-                                                            Can I be paid as a caregiver for my spouse is yes. Medicare does not pay.
-                                                        </Card.Text>
-                                                        <Button variant="primary">See More</Button>
-                                                    </Card.Body>
-                                                </Card>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
+            <Col lg={4} md={6} sm={12}>
+                <div className='section-gap category'>
+                    <img src={category3} alt="" />
+                        <div className="middle">
+                            <div className="text">EMERGENCY TREATMENT</div>
+                        </div>
+                </div>
+            </Col>
+        </Row>
 
 
-                                    <Accordion.Item eventKey="3">
-                                        <Accordion.Header><h2 className="fs-5">Doctor patient relationship</h2></Accordion.Header>
-                                        <Accordion.Body>
-                                            A doctor-patient relationship is formed when a doctor attends to a patient's medical needs and is usually through consent. This relationship is built on trust, respect, communication and patients' sides.
-                                            <div className="d-flex">
-
-                                                <Card>
-                                                    <Card.Header><span className="text-danger">Love with a patient</span></Card.Header>
-                                                    <Card.Body>
-
-                                                        <Card.Text>
-                                                            Though instances of doctors and patients entering romantic relationships are indeed rare, or with former patients.
-                                                        </Card.Text>
-                                                        <Button variant="primary">See More</Button>
-                                                    </Card.Body>
-                                                </Card>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                    
-                                </Accordion>
-
-                          </div>
-                      </div>
+        <Row>
+            <Col lg={8} md={7} sm={12}>
+                <div className='section-gap'>
+                    <h2>Welcome to our Clinic</h2>
+                    <div className='d-flex'>
+                        <p className='p-tag'>Short Speech on Health is Wealth. Health is the biggest wealth for a human being in his/her entire lifetime. One can survive without excess money but can't survive without good health. money but we can take care of it and we can cure it when needed.</p>
+                         <p className='mx-3 p-tag'>A healthy body is maintained by good nutrition, regular exercise, avoiding harmful habits, making informed and responsible decisions about health, and seeking medical assistance when necessary.</p>
                     </div>
                 </div>
-            </Container>
-        </div>
+            </Col>
+
+              <Col lg={4} md={5} sm={12}>
+                <div className='mt-3'>
+                    <img src={about2} alt="" />
+                </div>
+            </Col>
+        </Row>
+    </Container>
+</div>
     );
 };
 

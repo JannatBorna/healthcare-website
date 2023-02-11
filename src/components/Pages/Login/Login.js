@@ -14,7 +14,7 @@ const Login = () => {
     ///login before private page -- google 
     const location = useLocation();
     const history = useHistory();
-    const redirect_uri = location.state?.from || '/details';
+    const redirect_uri = location.state?.from || '/services';
     
     const handleGoogleLogin = () => {
        signInWithGoogle()
