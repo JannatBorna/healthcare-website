@@ -42,3 +42,39 @@
     font-weight: 600;
     padding: 16px 32px;
 }
+
+.service-time{
+    padding: 1.2em;
+    border-bottom: 1px solid #f1f0f0 !important;
+}
+
+.booking-time{
+    margin-left: 350px;
+}
+
+.appointment{
+ padding: 1.5em;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ 
+}
+
+.appointment h2 {
+    margin-left: 150px;
+}
+
+
+.booking-from form{
+    margin-left: 50px;
+}
+
+.booking-from input{
+    width: 80%;
+}
+
+.booking-from textarea{
+    width: 80%;
+}
+
+.booking-from select{
+    width: 80%;
+}

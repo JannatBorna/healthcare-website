@@ -79,6 +79,68 @@ const About = () => {
                 </div>
             </Col>
         </Row>
+
+
+
+        <Row>
+            <Col lg={6} md={6} sm={12}>
+                <div className='section-gap'>
+                    <h1>Servicing Hours</h1>
+                    <p>What should you do? Knowing that morning is the best  time of day for medical <br /> care, try to schedule your medical appointments and procedures for as <br /> early in the day as possible.</p>
+
+                    <div className='d-flex service-time'>
+                        <p>Friday</p>
+                        <p className='booking-time'>08.00 am - 10.00 pm</p>
+                    </div>
+
+                    <div className='d-flex service-time'>
+                        <p>Monday</p>
+                        <p className='booking-time'>08.00 am - 10.00 pm</p>
+                    </div>
+
+                     <div className='d-flex service-time'>
+                        <p>Saturday</p>
+                        <p className='booking-time'>09.00 am - 12.00 pm</p>
+                    </div>
+                    <div className='d-flex service-time'>
+                        <p>Sunday</p>
+                        <p className='booking-time'>1.00 pm - 6.00 pm</p>
+                    </div>                                      
+                </div>
+            </Col>
+
+            <Col lg={6} md={6} sm={12}>
+                <div className='appointment section-gap'>
+                    <h2>Book an Appointment</h2>
+                    <from className='booking-from'>
+                        <input type="name" placeholder='Patient Name' className='mx-5'/>
+                        <br />
+                        <input type="phoneNumber" placeholder='Phone' className='my-3 mx-5'/>
+                        <br />
+                        <input type="email" placeholder='Email Address'className='mx-5'/>
+                        <br />
+                        <select name="Disease" id="lang" className='my-3 mx-5'>
+                            <option value="select">Disease Type</option>
+                            <option value="oneType">One Type</option>
+                            <option value="twoType">Two Type</option>
+                            <option value="threeType">Three Type</option>
+                            <option value="fourType">Four Type</option>
+                            <option value="fiveType">Five Type</option>
+                        </select>
+                            <br />
+                        <input type="date" id="birthday" name="birthday" className='mx-5'/> 
+                        <br />
+                        <input type="email" placeholder='appointment Date' className='my-3 mx-5'/>
+                       <br />
+                        <textarea name="message" rows="2" cols="30" placeholder='Messege' className='mx-5'/>                     
+                    </from>
+                </div>
+            </Col>           
+        </Row>
+
+
+
+
     </Container>
 </div>
     );
@@ -87,3 +149,9 @@ const About = () => {
 export default About; 
                             
                               
+
+
+
+// 
+// 
+
