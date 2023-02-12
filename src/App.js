@@ -1,22 +1,21 @@
 import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/Shared/Header/Header';
 import Footer from './components/Shared/Footer/Footer';
 import Banner from './components/Pages/Banner/Banner';
 import Services from './components/Pages/Services/Services';
 import NotFound from './components/NotFound/NotFound';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Pages/Home/Home';
 import Team from './components/Pages/Team/Team';
 import About from './components/Pages/About/About';
-import Appointments from './components/Pages/Appointments/Appointments';
 import Events from './components/Pages/Events/Events';
 import AuthProvider from './context/AuthProvider';
 import Login from './components/Pages/Login/Login';
 import Register from './components/Register/Register';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
-
 import Spinner from './components/Pages/Spinner/Spinner';
 import Details from './components/Pages/Details/Details';
+import Blog from './components/Pages/Blog/Blog';
 
 function App() {
   return (
@@ -62,8 +61,8 @@ function App() {
               <Spinner></Spinner>
             </PrivateRoute>
 
-            <PrivateRoute exact path="/appointments">
-              <Appointments></Appointments>
+            <PrivateRoute exact path="/blog">
+              <Blog></Blog>
             </PrivateRoute>
             
             <PrivateRoute exact path="/details">

@@ -13,7 +13,7 @@ const Header = () => {
             <Navbar bg="dark" expand="lg">
                 <Container fluid>
                      <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll >
-                        <Navbar.Brand href="#"> <img src={logo} alt="" className='logo'/> <span className='logo-name'>Lifeline</span></Navbar.Brand>
+                        <Navbar.Brand href="#"> <img src={logo} alt="" className='logo'/> <span className='logo-name'>Dr. S</span></Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                     </Nav>
 
@@ -22,6 +22,7 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/" className='header-list'>Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/services" className='header-list'>Services</Nav.Link>
                         <Nav.Link as={HashLink} to="/about" className='header-list'>About</Nav.Link>
+                        <Nav.Link as={HashLink} to="/blog" className='header-list'>Blog</Nav.Link>
                     {
 
                     user?.email ?

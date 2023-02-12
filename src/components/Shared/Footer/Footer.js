@@ -27,7 +27,7 @@ const Footer = () => {
                             <div className="left-container text-start">
                                 <div className='footer-logo mt-5'>
                                     <img src={logo} alt="" className='logo'/>
-                                    <span className='logo-text mx-3'>Lifeline</span>
+                                    <span className='logo-text mx-3'>Dr. S</span>
                                 </div>
                                 <p className="footer-text mt-3">
                                     The toll-free helpline '+017 33 901 001' will be operational from Monday to Saturday between 10 am to 6 pm. It offers direct service in Dhaka,Comilla, Khulna, Dinajpur, Rangpur, Barisal, Faridpur, Pabna, Kushtia, Tangail, Patuakhali.
