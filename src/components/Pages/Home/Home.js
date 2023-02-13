@@ -17,9 +17,8 @@ const Home = () => {
             <Events></Events>
             <BannerTwo></BannerTwo>
             <Team></Team>
-            <Clint></Clint>
             <HomeBlog></HomeBlog>
-            
+            <Clint></Clint>
            </div>
             
     );
