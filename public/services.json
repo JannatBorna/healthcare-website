@@ -42,53 +42,59 @@
     "description": " portable X-ray machines allow lab technicians to perform this service at home."
 },
 {
-    "id": "b6",
+    "id": "b7",
     "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
+    "img": "https://i.ibb.co/VgyqQjt/serv-7.png",
     "description": " portable X-ray machines allow lab technicians to perform this service at home."
 },
 {
-    "id": "b6",
+    "id": "b8",
     "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
+    "img": "https://i.ibb.co/MV99BJM/serv-8.png",
     "description": " portable X-ray machines allow lab technicians to perform this service at home."
 },
 {
-    "id": "b6",
+    "id": "b9",
     "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
+    "img": "https://i.ibb.co/CtY3qXG/serv-9.png",
     "description": " portable X-ray machines allow lab technicians to perform this service at home."
 },
 {
-    "id": "b6",
+    "id": "b10",
     "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
+    "img": "https://i.ibb.co/T8bHJ6x/serv-10.png",
     "description": " portable X-ray machines allow lab technicians to perform this service at home."
 },
 {
-    "id": "b6",
+    "id": "b11",
     "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
-    "description": " portable X-ray machines allow lab technicians to perform this service at home."
-},
-
-{
-    "id": "b6",
-    "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
-    "description": " portable X-ray machines allow lab technicians to perform this service at home."
-},
-{
-    "id": "b6",
-    "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
+    "img": "https://i.ibb.co/GtHJQ6G/serv-11.png",
     "description": " portable X-ray machines allow lab technicians to perform this service at home."
 },
 
 {
-    "id": "b6",
+    "id": "b12",
     "name": "Laboratory and X-Ray",
-    "img": "https://i.ibb.co/NVt3RtF/serv-6.png",
+    "img": "https://i.ibb.co/yYbcwB3/serv-12.jpg",
+    "description": " portable X-ray machines allow lab technicians to perform this service at home."
+},
+{
+    "id": "b13",
+    "name": "Laboratory and X-Ray",
+    "img": "https://i.ibb.co/47G7xRk/serv-13.jpg",
+    "description": " portable X-ray machines allow lab technicians to perform this service at home."
+},
+
+{
+    "id": "b14",
+    "name": "Laboratory and X-Ray",
+    "img": "https://i.ibb.co/1n0Mv3D/serv-14.jpg",
+    "description": " portable X-ray machines allow lab technicians to perform this service at home."
+},
+{
+    "id": "b15",
+    "name": "Laboratory and X-Ray",
+    "img": "https://i.ibb.co/rHdPzX0/serv-15.jpg",
     "description": " portable X-ray machines allow lab technicians to perform this service at home."
 }
 ]
