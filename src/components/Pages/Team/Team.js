@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import img1 from '../../../images/ourteam/p-1.png';
 import img2 from '../../../images/ourteam/p-2.png';
 import img3 from '../../../images/ourteam/p-3.png'; 
@@ -15,8 +15,7 @@ const Team = () => {
     return (
        
         <Container className="my-5">
-            <h1 className="text-center fw-3">Our Doctor Tea<span className="text-color">M</span></h1>
-            <Row lg={1} md={1} xs={1} className="g-4">
+            <h1 className="text-end fw-3">Our <span className="text-color">Team</span></h1>
              <div className="card-align my-5">  
                 <div className="card w-100 border-0 shadow" >
                     <div className="inner">
@@ -83,8 +82,6 @@ const Team = () => {
                 </div>
                
             </div>
-
-            </Row>
         </Container>   
       );
 };

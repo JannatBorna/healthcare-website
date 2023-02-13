@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import HomeService from '../HomeService/HomeService';
 
 
@@ -20,7 +21,9 @@ const HomeServices = () => {
 
     return (
         <div id="services">
-            <h2 className="text-center fw-3">Health Care <span className="text-color">Services</span></h2>
+            <Container>
+                <h2 className="text-end fw-3">Our <span className="text-color">Services</span></h2>
+            </Container>
             <div className="service-container mt-5">
                 {
                     homeServices.slice(0, limit ? limit : homeServices.length).map(homeService => <HomeService

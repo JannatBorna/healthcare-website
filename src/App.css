@@ -1,9 +1,11 @@
 /* -------------commom css--------------- */
 .text-color{
-    color: #3b61e7 !important;
-    font-size: 40px;
+    color: #b6b1f8 !important;
+    font-size: 37px;
     font-weight: 500;
     border-bottom: 3px solid #3b61e7 !important;
+    border-top: 3px solid #3b61e7 !important;
+    
 }
 
 

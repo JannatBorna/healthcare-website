@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import about1 from '../../../images/about-4.jpg';
-import about2 from '../../../images/about-3.png';
-import category1 from '../../../images/about-category/category-1.jpg';
-import category2 from '../../../images/about-category/category-2.jpg';
-import category3 from '../../../images/about-category/category-3.jpg';
+import about1 from '../../../images/about/about-1.jpg';
+import about2 from '../../../images/about/about-2.png';
+import category1 from '../../../images/about/category-1.jpg';
+import category2 from '../../../images/about/category-2.jpg';
+import category3 from '../../../images/about/category-3.jpg';
 import './About.css';
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
             <Card className="text-dark">
                 <Card.Img src={about1} alt="Card image" className='about-card'/>
                 <Card.ImgOverlay  className='about-card-text section-gap'>
-                    <Card.Title><h1>About <span className="text-color">Us</span></h1> </Card.Title>
+                    <Card.Title><h1>About <span className="text-danger">Us</span></h1> </Card.Title>
                     <Card.Text>
                        <p>Good health is central to human happiness and <b>well-being that contributes</b> significantly to prosperity and wealth and even economic progress, as healthy populations are more productive, save more and live longer.</p>
                        <button className='button'>Get started</button>
