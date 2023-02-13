@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 import useAuth from '../../../hook/useAuth';
 import { HashLink } from 'react-router-hash-link';
-import logo from '../../../images/heartbeat.png';
+import logo from '../../../images/others/heartbeat.png';
 import './Header.css';
 
 const Header = () => {

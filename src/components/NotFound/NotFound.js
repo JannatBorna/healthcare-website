@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import notfound from '../../images/404.png';
+import notfound from '../../images/others/404.png';
 import './NotFound.css';
 
 const NotFound = () => {

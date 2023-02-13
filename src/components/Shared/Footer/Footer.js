@@ -15,7 +15,7 @@ import {
     faGlobe
 } from "@fortawesome/free-solid-svg-icons";
 
-import logo from '../../../images/heartbeat.png';
+import logo from '../../../images/others/heartbeat.png';
 
 const Footer = () => {
     return (

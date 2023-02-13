@@ -27,7 +27,6 @@ const HomeService = ({ homeService }) => {
                             </Link>
                     }
                 </div>
-
             </div>
         </Container>
     );

@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import slide2 from '../../../images/slide/s-2.png';
+import slide2 from '../../../images/others/slide.png';
 import './Banner.css';
 
 const Banner = () => {
     return (
-    
-
             <div className="container-banner">
                 <div className="container_header mt-5">
                     <h1>Healthy Health <span className="text-danger">Care Tips</span></h1>
@@ -19,7 +17,6 @@ const Banner = () => {
                 <div className="banner-picture">
                     <img src={slide2} alt="" rounded/>
                 </div>
-                
             </div>
                      
 

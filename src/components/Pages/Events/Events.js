@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faRocket, faHeartbeat, faHospitalAlt, faSyringe} from "@fortawesome/free-solid-svg-icons";
-// import {faFamily} from "@fortawesome/free-brands-svg-icons";
 import './Events.css'
 
 const Events = () => {

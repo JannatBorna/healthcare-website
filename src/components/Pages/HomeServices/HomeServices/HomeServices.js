@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import {  Row, Col } from 'react-bootstrap';
 import HomeService from '../HomeService/HomeService';
-
+import './HomeServices.css';
 
 
 const HomeServices = () => {
@@ -21,9 +21,16 @@ const HomeServices = () => {
 
     return (
         <div id="services">
-            <Container>
-                <h2 className="text-end fw-3">Our <span className="text-color">Services</span></h2>
-            </Container>
+            <Row>
+                <Col lg={12} md={12} sm={12}>
+                    <div className='text-center'>
+                         <h2>Our Offered Services</h2>
+                        <p>We may consider a Doctor, the most important person in society. He treats <br /> from one or many diseases. The doctor has a profound   knowledge of various illnesses.</p>
+                    </div>
+                </Col>
+            </Row>
+            
+   
             <div className="service-container mt-5">
                 {
                     homeServices.slice(0, limit ? limit : homeServices.length).map(homeService => <HomeService

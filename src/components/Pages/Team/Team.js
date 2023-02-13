@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import img1 from '../../../images/ourteam/p-1.png';
 import img2 from '../../../images/ourteam/p-2.png';
 import img3 from '../../../images/ourteam/p-3.png'; 
@@ -11,11 +11,20 @@ import './Team.css'
 const Team = () => {
    
     
-        
-    return (
-       
-        <Container className="my-5">
-            <h1 className="text-end fw-3">Our <span className="text-color">Team</span></h1>
+return (
+    <div className='section-gap'>
+        <Row>
+            <Col lg={12} md={12} sm={12}>
+                <div className='text-center'>
+                    <h2>Our Doctors</h2>
+                    <p>We may consider a Doctor, the most important person in society. He 
+                    treats <br /> from one or many diseases. The doctor has a profound   
+                    knowledge of various illnesses.</p>
+                </div>
+            </Col>
+        </Row>
+
+        <Container>
              <div className="card-align my-5">  
                 <div className="card w-100 border-0 shadow" >
                     <div className="inner">
@@ -83,6 +92,7 @@ const Team = () => {
                
             </div>
         </Container>   
+    </div>
       );
 };
 

@@ -1,0 +1,29 @@
+.bannerTwo{
+    background-color: #dbdbdb !important;
+}
+
+.banner-two img{
+    width: 80%;
+    height: 80vh;
+}
+
+.bannerTwo-icon{
+    font-size: 40px;
+    color: brown !important;
+}
+
+.bannerTwo-text h1{
+    color: white !important;
+    margin-left: 40px;
+}
+
+.bannerTwo-text p{
+    color: white !important;
+    margin-left: 40px;
+}
+
+.bannerTwo-text h2{
+    color: white !important;
+    text-align: end;
+    padding: 0.5em;
+}

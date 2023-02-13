@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Button, FloatingLabel, Row, Col, Container } from 'react-bootstrap';
 import './Register.css';
-import img from '../../images/signup.png';
+import img from '../../images/others/signup.png';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hook/useAuth';
 

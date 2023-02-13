@@ -1,13 +1,12 @@
 import React from 'react';
-//import './Details.css'
 import { useParams } from 'react-router';
-import images from '../../../images/detail-1.png'
+import images from '../../../images/others/detail-1.png'
 import { Card, Button } from 'react-bootstrap';
-import Services from './../Services/Services';
+//import './Details.css'
 
 
 const Details = () => {
-    const { serviceId , name,} = useParams();
+    const { serviceId } = useParams();
   
 
 

@@ -4,6 +4,8 @@ import Events from '../Events/Events';
 import Team from '../Team/Team';
 import HomeServices from '../HomeServices/HomeServices/HomeServices';
 import BannerTwo from '../BannerTwo/BannerTwo';
+import Clint from '../Clint/Clint';
+import HomeBlog from '../HomeBlog/HomeBlog';
 
 const Home = () => {
     return (
@@ -15,7 +17,8 @@ const Home = () => {
             <Events></Events>
             <BannerTwo></BannerTwo>
             <Team></Team>
-            
+            <Clint></Clint>
+            <HomeBlog></HomeBlog>
             
            </div>
             

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, Button, FloatingLabel, Row, Col, Container } from 'react-bootstrap';
 import './Login.css';
-import img from '../../../images/login2.png';
+import img from '../../../images/others/login.png';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from './../../../hook/useAuth';
 import { HashLink } from 'react-router-hash-link';
