@@ -1,4 +1,8 @@
-
+.event-icon{
+   text-align: center;
+   color: #7777f3 !important;
+   font-size: 40px;
+}
 
 /* make it responsive */
 @media only screen and (max-width: 688px){
