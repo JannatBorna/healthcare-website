@@ -10,8 +10,7 @@ import useAuth from '../../hook/useAuth';
 
 const Register = () => {
     
-    const { signInWithGoogle, signInWithGithub, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, toggleLogin, error, handleResetPassword} = useAuth();
-    ///register before private page -- google 
+    const { signInWithGoogle, signInWithGithub, handleRegistration, handleNameChange, handleEmailChange, handlePasswordChange, error } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/details';
