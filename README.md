@@ -11,26 +11,26 @@
 - React bootstrap, plain bootstrap, plain CSS are used
 
 - This website has services are
-        > Mental health care.
-        > Dental Care
-        > Child Health Development.
-        > Prenatal Care.
-        > Preventative Care.
-        > Laboratory and X-Ray.
+         Mental health care.
+         Dental Care
+         Child Health Development.
+         Prenatal Care.
+         Preventative Care.
+         Laboratory and X-Ray.
 
 - There are more items
-        > Home
-        > Services
-        > Banner
-        > About
-        > Event
-        > Team Members
-        > Details
-        > Appointments
-        > Login
-        > Logout
-        > Register
-        > Footer
+         Home
+         Services
+         Banner
+         About
+         Event
+         Team Members
+         Details
+         Appointments
+         Login
+         Logout
+         Register
+         Footer
 <!-- https://preview.colorlib.com/#hospice -->
 
 <!-- https://preview.colorlib.com/#drpro -->
