@@ -17,6 +17,7 @@ import Spinner from './components/Pages/Spinner/Spinner';
 import Details from './components/Pages/Details/Details';
 import Blog from './components/Pages/Blog/Blog';
 
+
 function App() {
   return (
     <div>

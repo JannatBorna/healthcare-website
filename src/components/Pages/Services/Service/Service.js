@@ -2,7 +2,6 @@ import React from 'react';
 import { Container} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../../hook/useAuth';
-
 import './Service.css';
 
 const Service = ({ service }) => {
@@ -12,7 +11,7 @@ const Service = ({ service }) => {
         <Container>
             <div className="service">
                 <img  src={img} alt="" />
-                <h3 className="fw-normal fs-5 text-center">{name}</h3>
+                <h3 className="fw-normal fs-5 text-center mt-3">{name}</h3>
                 <p className="fw-lighter fw-5 text-center text-description">{description}</p>
 
                 <div className="text-center">
