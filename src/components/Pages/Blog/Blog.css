@@ -1,0 +1,28 @@
+.blog-headline {
+    padding: 2.5em;
+    text-align: center;
+}
+
+.blog-headline h2{
+    color: brown !important;
+    font-size: 30px;
+    font-family:fantasy;
+    font-weight: bolder;
+}
+
+
+.blog img{
+   margin-left: 100px;
+   width: 90%;
+   height: 80vh;
+}
+
+.blog-text{
+    text-align: center;
+}
+
+.blog-by{
+    color: brown !important;
+    font-weight: bold;
+    font-size: 20px;
+}
