@@ -1,4 +1,4 @@
-# Website name  - Lifeline Medical
+# Website name  - HealthCare
 
 - Website live link
         `https://lifeline-medical.web.app`
